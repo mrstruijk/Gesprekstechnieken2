@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Olivia_ConversationOptionA
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: 1a) Ha Olivia, leuk dat je er bent! Goed hoor, wat wil je tekenen?
+      Dan gaan we daarna even samen praten.
+    response:
+    - header: Olivia can draw
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 327fbfeba5fd545129d544a1047288e4, type: 3}
+      postDelay: 0
+      startTrigger: drawing
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: b1ad92be1e5b64f7c88517452cdf4c89, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 2a) Je antwoordt niet. Kan je eens vertellen hoe dat komt, volgens
+      jou?
+    response:
+    - header: Olivia is afraid that if she answers she will be punished
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 40778677f1f7c418eb324c9374352094, type: 3}
+      postDelay: 0
+      startTrigger: fidget1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: dcba2faf6ea1840e1b7bd0501c9ebc06, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: "3a. Ja, leuk h\xE8, om naar de dierentuin te gaan? Maar we waren bezig
+      over ruzie met andere kinderen. Vertel daar eens meer over?"
+    response:
+    - header: 'Emma was really stupid to me at the zoo. Evil. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 533fa2157fb8641608d67b4a1b390af5, type: 3}
+      postDelay: 0
+      startTrigger: crossArms
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: ccf3fdad2ccd7434981ba6e526e93503, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 4a. Ik denk dat ik wel snap wat er gebeurt als je ruzie krijgt. Zal
+      ik het eens als een dierenverhaal vertellen? Dus toen was er een hond en die
+      wilde graag met een poesje spelen, maar dat poesje wilde dat niet, dus ging
+      de hond bijten.
+    response:
+    - header: Biting is not nice either...
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: f28c2fbcc3fd944ed828ac9d4b6ffa12, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad
+      range: {x: 0.5, y: 0.75}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 07a8af32fd208457a93d8ed226221bb2, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 5a. Olivia, wat ben je aan het doen?
+    response:
+    - header: Look, I learned this on TikTok!
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: 8680d6a1f078b4d579aab8993660aa0a, type: 3}
+      postDelay: 2
+      startTrigger: TikTokMove
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.9, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 62b74efe55eb04abbbfff98b56e13949, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '6a. Ja, we komen er over 1 minuut aan! Tegen Olivia: Bedankt dat je
+      vandaag zo veel verteld hebt. Het soms denk ik best moeilijk voor je, dus fijn
+      dat je zo goed je best hebt gedaan. Wil je nog een sticker uitzoeken?'
+    response:
+    - header: Olivia wants another sticker to show to her mum
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 29a49d0f06be44c9d89f6e0a4487a9ed, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking3
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 799d72e53bae7417aa7c4abe0c2ffe4a, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3

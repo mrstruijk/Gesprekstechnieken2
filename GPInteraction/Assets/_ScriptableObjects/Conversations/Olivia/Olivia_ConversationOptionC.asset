@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Olivia_ConversationOptionC
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: 1c) Nee hoor, we gaan vandaag praten. Waarom dacht je dat we gaan tekenen?
+    response:
+    - header: Olivia can't draw at all, and she's pissed
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 604f4246f8f0b43c2868d1ad0d6ee470, type: 3}
+      postDelay: 0
+      startTrigger: crossArms
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.6, y: 0.9}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 83668c474bac442eebb50df2c531b8c4, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+  - cardText: '2c) Je antwoordt niet, maar ik vind het een heel belangrijke vraag.
+      Laten we het nog een keer proberen: Vertel eens, wat gebeurt er als je boos
+      wordt?'
+    response:
+    - header: 'I''m not gonna say that. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: ee124d0560329431386791ef9d004706, type: 3}
+      postDelay: 0
+      startTrigger: crossArms
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 0a23a4727fd3443bda6f61e350238587, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+  - cardText: "3c. Ja, leuk h\xE8, om naar de dierentuin te gaan? Maar soms krijgen
+      kinderen ruzie op schoolreisje. Had jij dat ook gisteren? "
+    response:
+    - header: Emma didn't want to sit next to me
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 8185acf95297243789d07ef686ee8e80, type: 3}
+      postDelay: 0
+      startTrigger: lookdown
+      stopTrigger: stopSpeaking
+      emoteTrigger: Small sad
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 7a3493628fc494ac690cf2334d479a20, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+  - cardText: 4c. Ik merk dat we allebei ons best doen voor dit gesprek, maar dat
+      het niet zo makkelijk gaat. Weet jij waardoor het komt?
+    response:
+    - header: 'I just think it''s a very difficult question. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: b3827077918c6472c8ea2146706b27a2, type: 3}
+      postDelay: 0
+      startTrigger: fidget2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: fa64d4f218a6344e382d4f41a80ed5ad, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+  - cardText: 5c. Knap hoor! Ik snap wel dat je even wilt bewegen, dat praat soms
+      makkelijker. Zullen we afspreken dat je even druk kan doen, en daarna weer
+      met me komt praten? Vertel eens, wat is er nog meer leuk op school?
+    response:
+    - header: Ok! I always help the teacher to hand out notebooks (?)
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: cd00cfd984609404187a6284d5cf3164, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 76ba4618bb71f4d0ab5015d04b48c0ca, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+  - cardText: 6c. Olivia, ga maar vast je jas aantrekken. Dan vertel ik aan mamma
+      wat jij vandaag aan mij verteld hebt.
+    response:
+    - header: Olivia wants to hear as well
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: c75907b37f51c4a13a019bf23e2ad218, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.6, y: 0.8}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 5578e242ff552445f982decee7b67771, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3

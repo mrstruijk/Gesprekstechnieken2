@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Adults_ConversationOptionA
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: 1a) "Goedemorgen, fijn dat jullie er zijn! Ik zou willen voorstellen
+      dat we eerst wat praten over de dingen waar jullie mee zitten en dat we dan
+      eens kijken of we daar iets aan kunnen doen. Daar hebben we vandaag 45 minuten
+      de tijd voor. Zullen we het zo aanpakken?"
+    response:
+    - header: "Andr\xE9 is niet betrokken bij M-J"
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 4ba5e549537c94b8c9b7259ee4a6fc95, type: 3}
+      postDelay: 0
+      startTrigger: defensive
+      stopTrigger: stopSpeaking
+      emoteTrigger: Wide eyed
+      range: {x: 0.5, y: 0.8}
+      emoteStopDelay: 3
+    - header: Janneke geeft me niet de kans om met M-J te zijn. (defensive)
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 350d57cf2752445df9ea61c0b8067ad1, type: 3}
+      postDelay: 0
+      startTrigger: defensive
+      stopTrigger: stopSpeaking
+      emoteTrigger: Mouth press
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 7f09be6a503e24422b130e0d554ea5bc, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 2a) Je laat een stilte vallen.
+    response:
+    - header: 'Ik weet niet wat ik nog meer moet zeggen. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: e5893de63ba3542b9a533da61ae0bf74, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Wide eyed 2
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: dcba2faf6ea1840e1b7bd0501c9ebc06, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '3a) Je zegt: "Kinderen volgen inderdaad het voorbeeld van hun ouders."'
+    response:
+    - header: Is het nu onze schuld?
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 1c4dacf79213246c3b6c93ce6c6b2081, type: 3}
+      postDelay: 0
+      startTrigger: crossarms
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: edda4f84a129c4c358ed16d852248f86, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking
+      stopTrigger: stopSpeaking
+      emoteTrigger: Small smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '4a) Je zegt: "Ik ga een advies geven dat jullie misschien niet verwachten.
+      Ik stel voor dat we de behandeling starten met gesprekken over jullie communicatie
+      onderling. Als kinderen spanning merken tussen hun ouders, kan dit leiden tot
+      opstandig gedrag. Ik verwacht daarom dat het gedrag van Mia-Jolie al een stuk
+      verbetert als jullie aan de onderlinge communicatie werken."'
+    response:
+    - header: Ik wil geen opvoedcursus
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: a36c5653bb005495eaea194832090e8d, type: 3}
+      postDelay: 0
+      startTrigger: defensive
+      stopTrigger: stopSpeaking
+      emoteTrigger: Eyes narrow
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 'Nee, ze luisterde eerst wel, dat kan dus niet het probleem zijn. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: f4deb5ef1b90e41c9a28feb42fd6a18b, type: 3}
+      postDelay: 0
+      startTrigger: perplexed
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: ad11da8e7bb924a01828ff72442403b3, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 5a) "Jullie zijn misschien verbaasd over dit advies en voelen je misschien
+      ook wel aangevallen. Dat maakt het misschien wat moeilijk om dit advies te
+      accepteren, begrijp ik."
+    response:
+    - header: 'Verdrietig dat ik haar geen normaal gezinsleven kan geven. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 291e652fe00934b1baca513be345d3a0, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Mouth pucker
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 633a468b2de5e46d3a132194028bb3ce, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking
+      stopTrigger: stopSpeaking
+      emoteTrigger: Nose sneer
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 6a) "Ik verwacht inderdaad dat deze gesprekken een positief effect
+      zullen hebben op het gedrag van Mia-Jolie. Zij zal dan vermoedelijk minder
+      opstandig gedrag laten zien. Een mooi onderwerp om volgende keer mee verder
+      te gaan."
+    response:
+    - header: Ja prima.
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 56002de62447441e19471b2302007e90, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking
+      stopTrigger: stopSpeaking
+      emoteTrigger: Small smile
+      range: {x: 0.8, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 5d657bc7d0b904039bd277e7c54b2e4c, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3

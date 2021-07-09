@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 03a8ef93f768ac143aef0090c4b87d93
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - image: {instanceID: 0}
+  - alphaToZeroComplete: {fileID: 11400000, guid: 6c5b898e25333424d9b09bf8f8f204c5,
+      type: 2}
+  - alphaToOneComplete: {fileID: 11400000, guid: f0b79286773281043b75ce399f05e08b,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

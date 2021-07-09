@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Teenager_SituatieSchetsen
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: "1. Sofie is 14 jaar en wordt door haar ouders aangemeld bij een praktijk
+      voor orthopedagogen. Sofie zit in HAVO-3, maar haar schoolresultaten gaan de
+      laatste tijd achteruit. Ook slaapt ze slecht de laatste tijd. Volgens ouders
+      komt dit doordat ze non-stop met social media bezig is. Dit is het eerste hulpverleningsgesprek
+      dat je met Sofie hebt na de intake. \n\nAls je er klaar voor bent, leg dan
+      dit kaartje op de aflegstapel."
+    response:
+    - header: Sophia looks down with a grumpy face
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: f995c9f20c401db4ab973c459c12101e, type: 3}
+      postDelay: 0
+      startTrigger: looksdown
+      stopTrigger: stopSpeaking
+      emoteTrigger: Murderlook
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: c3d402ffed7cf468e8fb0ebfbf8b57f5, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '2. Je vervolgt het gesprek en zegt: "Ik wil graag proberen je te helpen.
+      Daarvoor is nodig dat ik weet waar jij bij geholpen wilt worden. Je ouders
+      hebben gezegd dat het niet zo goed gaat met je cijfers op school en met slapen,
+      maar is dat ook waar jij bij geholpen zou willen worden?"
+
+
+      Als je er
+      klaar voor bent, leg dan dit kaartje op de aflegstapel, om te merken hoe Sofie
+      hier op reageert.'
+    response:
+    - header: Sofie is defensive
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: c065b06d212ea4ba9a2fdda2cc952f14, type: 3}
+      postDelay: 0
+      startTrigger: crossarms
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad mouth
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: fc1a54ad5e60b42bba629d9d45c22139, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '3. Je vraagt: "Kan je mij vertellen wat er afgelopen week gebeurde
+      op een avond dat je nog lang wakker lag? Misschien kunnen we zo samen ontdekken
+      wat een oorzaak is van die slaapproblemen."'
+    response:
+    - header: Sofia looks neutral and then angry
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 22e2cc754257c48b796c56f706a26957, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Murderlook
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 54a9872e6feb24a879e6ceb85311b67a, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '4. Het gesprek gaat verder en je stelt aan Sofie de vraag wat zij
+      als oplossing ziet voor haar slaapproblemen. '
+    response:
+    - header: Sofie don't know what to do and ask advice to the practitioner
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: f4baefa6070c24aa1a51f02dd7bd2dfb, type: 3}
+      postDelay: 0
+      startTrigger: perplexed
+      stopTrigger: stopSpeaking
+      emoteTrigger: Happy surprise
+      range: {x: 0.2, y: 0.4}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 9978cdd4bffe9439eb178a6c54718482, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '5. Je stelt de vraag: "Veel jongeren die ''s avonds lang wakker liggen,
+      hebben piekergedachten. Is dat bij jou ook zo?"'
+    response:
+    - header: Looks out of window at woman
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: a0a3e2e840c83f94dbc3e2f968383aec, type: 3}
+      postDelay: 0
+      startTrigger: lookingOutOfWindow
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 00df039684e654467bf7e2178c6a15b2, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: "6. Je kijkt op de klok en ziet dat er bijna een uur voorbij is. De
+      volgende cli\xEBnt zit waarschijnlijk al te wachten. Sofie zit midden in haar
+      verhaal over haar piekergedachten."
+    response:
+    - header: neutral sofie
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 245e19ec41f70456baf6e48a77c11c85, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking3
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad mouth
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 17ca00babb5314bb5a7dadc69853f2c0, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21e84a0f5db14db6b21817eb9f3ada7, type: 3}
+  m_Name: SceneManger
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  levels:
+  - {fileID: 11400000, guid: 2ed9e2f9d47aa4addb8a00daa5071915, type: 2}
+  - {fileID: 11400000, guid: c6ef58ca95f794155b36664b978d8563, type: 2}
+  - {fileID: 11400000, guid: efe62764da84e4b7597f63cefc3197e7, type: 2}
+  - {fileID: 11400000, guid: 0c282a5afdaa24112b53d6eb3369178e, type: 2}
+  menus:
+  - {fileID: 11400000, guid: de71f2fc9c8154c23868d08a0091ad7a, type: 2}

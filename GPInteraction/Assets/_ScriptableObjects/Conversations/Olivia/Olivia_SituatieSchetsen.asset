@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Olivia_SituatieSchetsen
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: "1. Olivia is 7 jaar en werd door haar juf verwezen naar de orthopedagoog
+      die aan haar school verbonden is. Olivia heeft veel last van driftbuien in
+      de klas en heeft vaak ruzie met klasgenoten. Dit is de tweede keer dat je Olivia
+      ziet, nadat je haar al een keer samen met haar moeder in een intake hebt gesproken.
+      \n\nAls je er klaar voor bent, leg dan dit kaartje op de aflegstapel."
+    response:
+    - header: Olivia wants to draw and looks at the pen
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: b3c7ccb996a584ede9ec3233dfc65728, type: 3}
+      postDelay: 1
+      startTrigger: lookpen
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 1, y: 1}
+      emoteStopDelay: 3
+    - header: How would you respond to this?
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: b3a889e2dc9bf489e9413fca3f833f17, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: "2. Je vervolgt het gesprek. Zeg tegen Olivia: \"De vorige keer dat
+      je hier was, vertelde mamma dat je vaak boos wordt op school. Vertel eens,
+      hoe gaat dat als je boos wordt?\". \n\nAls je er klaar voor bent, leg dan dit
+      kaartje op de aflegstapel, om te merken hoe Olivia hier op reageert."
+    response:
+    - header: Olivia is uncomfortable and silent when asked why she's angry
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 9ce1c193b4d6d70428a8c7aad4e707c9, type: 3}
+      postDelay: 0
+      startTrigger: fidget2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 9b6b7e7c21e844f06b4a724d85d32e1c, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '3. Je vervolgt het gesprek en vraagt: "Kan je mij vertellen wat er
+      gebeurt als je ruzie krijgt met een kindje uit jouw klas?"'
+    response:
+    - header: We went to the zoo!
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 764bc2bdc7f6e4c2084eb6b9ab82e019, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 2561c5c813e944841973f0a3c54d0ea2, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '4. Je zegt: "Maar vertel eens, hoe komt het dat je gaat duwen en schreeuwen
+      als je ruzie hebt?"'
+    response:
+    - header: Olivia doesn't know why she push and shout when she's angry.
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: b7d248c903e414dc38e56eb0002d7970, type: 3}
+      postDelay: 0
+      startTrigger: lookaway
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: b9c17c55fc7714e1d9764699298b0c60, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '5. Het gesprek gaat verder en je vraagt: "Kan je mij vertellen welke
+      dingen er goed gaan op school?"'
+    response:
+    - header: I can do gym very well
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 16b52a05fb38a4bdcbbce97a62e36493, type: 3}
+      postDelay: 3
+      startTrigger: TikTokMove
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.9, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 7f168b03defa944abab9a90c106b17f1, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '6. Je kijkt op de klok en ziet dat er bijna 20 minuten om zijn. Je
+      wilt tot een afronding komen en zegt: "We zijn bijna klaar met het gesprek.
+      Wat ik nog wil weten is hoe jij het vond om met mij te praten?"'
+    response:
+    - header: Mum calls Olivia
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: ab4996fd773864a98aba1fe44b61c7a8, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking3
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 0.5
+      volume: 1
+      clip: {fileID: 8300000, guid: ed366b1330b828e45b70d5010799a16a, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 0.25
+      volume: 0.5
+      clip: {fileID: 8300000, guid: b7ab38a82b0184ede90d2d0f76d0188c, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 9b6b7e7c21e844f06b4a724d85d32e1c, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3

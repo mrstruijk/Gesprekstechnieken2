@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Tutorial_ConversationOptionA
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: 'Soms krijg je meerdere kaartjes te zien... '
+    response:
+    - header: '"Okay!"'
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: e2e34156c98c345d7b42091b4788cb47, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking3
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.9, y: 1}
+      emoteStopDelay: 3
+    - header: Om verder te gaan, pak zometeen het rechter kaartje beet, en leg deze
+        op de aflegstapel.
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: 02217e211bfa74e7b934dbe6f14b9c92, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Squint
+      range: {x: 0.5, y: 0.75}
+      emoteStopDelay: 3
+  - cardText: "Kies vervolgens van de kaartjes met de gespreksopties degene die het
+      meest aansluit bij wat je net zelf tegen je cli\xEBnt hebt gezegd. Zeg de text
+      van jouw gekozen kaartje weer hardop."
+    response:
+    - header: '"Jouw client zal hier vervolgens op reageren: "'
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: b2b64a8cc47bc466198b47268b28c6d7, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: .... Actual piece
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 533fa2157fb8641608d67b4a1b390af5, type: 3}
+      postDelay: 0
+      startTrigger: crossArms
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad
+      range: {x: 0.9, y: 1}
+      emoteStopDelay: 3
+    - header: '"Je coach gaat je feedback geven, zoals: "'
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: e5482963427924de1894f6266c3dab57, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Worry
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: ....Actual feedback
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: ccf3fdad2ccd7434981ba6e526e93503, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Skeptical
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: '"Kies om helemaal opnieuw te beginnen, deze interactie opnieuw te
+        doen, of om verder te gaan: "'
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: d6c98c4980f7c47898ff654aadd02baf, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 'Laten we dit zometeen even helemaal oefenen. De interactie met Olivia
+      begint met een introductietext. '
+    response:
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: ffafc106a08156f42b14889ad38a69ce, type: 3}
+      postDelay: 0
+      startTrigger: stopSpeaking
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 1a) Ha Olivia, leuk dat je er bent! Goed hoor, wat wil je tekenen?
+      Dan gaan we daarna even samen praten.
+    response:
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 327fbfeba5fd545129d544a1047288e4, type: 3}
+      postDelay: 0
+      startTrigger: drawing
+      stopTrigger: stopSpeaking
+      emoteTrigger: Surprise
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: b1ad92be1e5b64f7c88517452cdf4c89, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Nose scrunch
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: '"Dit was het al. Ga hierna door naar het menu..."'
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: a0ea2d1e848da4c9187dcba160fb41dc, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3

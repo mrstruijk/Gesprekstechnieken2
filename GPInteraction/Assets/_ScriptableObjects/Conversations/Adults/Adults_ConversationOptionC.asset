@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Adults_ConversationOptionC
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: "1c) \"Ha Janneke en Andr\xE9, goed dat jullie er zijn. Hoe gaat het
+      met jullie?\""
+    response:
+    - header: 'Bedoelt u tussen ons? Moeizaam. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 9c4d03a995ef54e01bcaa24d6eb5de1f, type: 3}
+      postDelay: 0
+      startTrigger: defensive
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.8, y: 1}
+      emoteStopDelay: 3
+    - header: 'Ik dacht dat we het over MJ zouden hebben. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 22eb85bbd85094671be0568201bf3cf9, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Skeptical
+      range: {x: 0.6, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: f4b51f2c9d180498aae57cb340ff2e9a, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: "2c) Je zegt tegen Andr\xE9: \"Ik kan mij voorstellen dat dat heel
+      lastig is. Heb je een idee wanneer Mia-Jolie voor het eerst zo opstandig deed?\""
+    response:
+    - header: 'Overdag gaat het prima, maar in de avond is ze upste. '
+      changeHeader: 1
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 2f4f8ef9e4b804fbfa11b545984e1f00, type: 3}
+      postDelay: 0
+      startTrigger: perplexed
+      stopTrigger: stopSpeaking
+      emoteTrigger: Mouth press
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 4fafac9d76a1146e08d8d8b55f743488, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+  - cardText: "3c) Je zegt: \"Ik merk dat jullie ge\xEFrriteerd zijn.\""
+    response:
+    - header: 'Janneke wordt altijd heel kwaad. Ik trok dat niet meer. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 5bb16279edce24e159eb1c9806e1a534, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Nose sneer
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+    - header: 'Jij gaat ook helemaal los. Absurd dat je mij de schuld geeft. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 9c39c420ba8994974af451bdb0f53289, type: 3}
+      postDelay: 0
+      startTrigger: defensive
+      stopTrigger: stopSpeaking
+      emoteTrigger: Mouth pucker
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 6894b4443780a4aa4b262a16519347bb, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '4c) Je vraagt: "Hebben jullie al eens gedacht aan ouderbegeleiding?"'
+    response:
+    - header: 'Nee, jij moet haar maar behandelen. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 5bb8121d7a65249fdbbd7e507844019d, type: 3}
+      postDelay: 0
+      startTrigger: crossarms
+      stopTrigger: stopSpeaking
+      emoteTrigger: Eyes narrow
+      range: {x: 0.8, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 1371b1e0315e64819aaadd3ecf637475, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+  - cardText: 5c) "Zie het als een mooie kans om ook weer nader tot elkaar te komen."
+    response:
+    - header: No, ik wil geen relatietherapie, ik wil niet met hem verder, ik doe
+        niet meer mee met dit gesprek.
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 36d17bfe80be04b80b36a0fc0c324269, type: 3}
+      postDelay: 0
+      startTrigger: crossarms
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.95, y: 1}
+      emoteStopDelay: 3
+    - header: Zie je, emotioneel...
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 7a7f31d32d66941dd877a6f83bf81fd3, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking3
+      stopTrigger: stopSpeaking
+      emoteTrigger: Smile
+      range: {x: 0.95, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: fb8a6f000dca842ec882a0e3c0ea3be6, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '6c) "Ja, dat denk ik inderdaad. We zijn nu bijna aan het eind van
+      dit eerste gesprek gekomen. We hebben samen gekeken naar wat mogelijke oorzaken
+      zijn van het gedrag van Mia-Jolie. Ik heb uitgelegd dat ik denk dat wat gesprekken
+      met jullie als ouders gaan helpen om het opstandige gedrag van Mia-Jolie te
+      verminderen. Wat ik me nog afvraag, voordat we gaan afronden is: Hoe hebben
+      jullie dit gesprek ervaren?"'
+    response:
+    - header: 'Ik moest wel even schakelen, maar wil er wel voor gaan. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 857b6b18415ca479f86c3bfcea90eaa7, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Small smile
+      range: {x: 0.6, y: 0.8}
+      emoteStopDelay: 3
+    - header: 'Ik heb vertrouwen dat dit beter is voor MJ. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 306c958416c554fa184a25ba5bcd0ae9, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Small smile
+      range: {x: 0.4, y: 0.8}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 017d3b039d7b84bbd9d65c2543a82f7b, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3

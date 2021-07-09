@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Tutorial_SituatieSchetsen
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: "Leg dit kaartje rechts naast je op de aflegstapel. \n\nJe pakt dit
+      beet door je hand in het kaartje te bewegen, en de knop bij je ringvinger en
+      middelvinger ingedrukt te houden. \n\nVervolgens kan je deze rechts naast je
+      neer leggen. "
+    response:
+    - header: '"Leg ook het volgende kaartje rechts naast je neer:"'
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: 3a7d0365a78f446f7b22b94bbc5541a3, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: Leg ook dit kaartje rechts naast je neer
+    response:
+    - header: "\"Tijdens deze sessie ga jij in gesprek met verschillende cli\xEBnten...
+        Jouw cli\xEBnt zal hier nl op reageren:\""
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: 9146d3fcef948498ea5b04b9cb1036e3, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: '"Nee ik wil er niet over praten!"'
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 764bc2bdc7f6e4c2084eb6b9ab82e019, type: 3}
+      postDelay: 0
+      startTrigger: fidget5
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: "\"Als jouw cli\xEBnt uitgesproken is, krijg jij een kaartje te zien
+        ... Doe dit weer hardop: \""
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: 441844cd68c3d460493c931b16f94688, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Worry
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: Dit is het hele proces! Leg ook dit kaartje maar rechts naast je neer
+    response:
+    - header: '"Niet fysiek in de ruimte zijn, maar via headphones feedback" '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 0.6
+      clip: {fileID: 8300000, guid: 0cfe3d9702a6b40e0b627abaf536cd44, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: "1. Olivia is 7 jaar en werd door haar juf verwezen naar de orthopedagoog
+      die aan haar school verbonden is. Olivia heeft veel last van driftbuien in
+      de klas en heeft vaak ruzie met klasgenoten. Dit is de tweede keer dat je Olivia
+      ziet, nadat je haar al een keer samen met haar moeder in een intake hebt gesproken.
+      \n\nAls je er klaar voor bent, leg dan dit kaartje op de aflegstapel."
+    response:
+    - header: ... Actual 1st set
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: ceee9669aa9b84470b848eaa38540a1e, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: b3c7ccb996a584ede9ec3233dfc65728, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking3
+      stopTrigger: stopSpeaking
+      emoteTrigger: Big smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 7f168b03defa944abab9a90c106b17f1, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Smile
+      range: {x: 0.75, y: 0.8}
+      emoteStopDelay: 3

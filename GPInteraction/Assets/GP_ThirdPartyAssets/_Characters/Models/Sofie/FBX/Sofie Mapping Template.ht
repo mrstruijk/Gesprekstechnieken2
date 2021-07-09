@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sofie Mapping Template
+  m_BoneTemplate:
+    Chest: Girl_Spine_03Jnt
+    Head: Girl_Neck_TopJnt
+    Hips: Girl_ROOTJnt
+    Jaw: Girl_Head_JawJnt
+    Left Index Distal: Girl_l_Finger_01_03Jnt
+    Left Index Intermediate: Girl_l_Finger_01_02Jnt
+    Left Index Proximal: Girl_l_Finger_01_01Jnt
+    Left Little Distal: Girl_l_Finger_04_03Jnt
+    Left Little Intermediate: Girl_l_Finger_04_02Jnt
+    Left Little Proximal: Girl_l_Finger_04_01Jnt
+    Left Middle Distal: Girl_l_Finger_02_03Jnt
+    Left Middle Intermediate: Girl_l_Finger_02_02Jnt
+    Left Middle Proximal: Girl_l_Finger_02_01Jnt
+    Left Ring Distal: Girl_l_Finger_03_03Jnt
+    Left Ring Intermediate: Girl_l_Finger_03_02Jnt
+    Left Ring Proximal: Girl_l_Finger_03_01Jnt
+    Left Thumb Distal: Girl_l_Thumb_01_03Jnt
+    Left Thumb Intermediate: Girl_l_Thumb_01_02Jnt
+    Left Thumb Proximal: Girl_l_Thumb_01_01Jnt
+    LeftEye: Girl_l_Eye_01Jnt
+    LeftFoot: Girl_l_Leg_AnkleJnt
+    LeftHand: Girl_l_Arm_WristJnt
+    LeftLowerArm: Girl_l_Arm_Elbow_CurveJnt
+    LeftLowerLeg: Girl_l_Leg_Knee_CurveJnt
+    LeftShoulder: Girl_l_Arm_ClavicleJnt
+    LeftToes: Girl_l_Leg_ToeJnt
+    LeftUpperArm: Girl_l_Arm_Shoulder_CurveJnt
+    LeftUpperLeg: Girl_l_Leg_Hip_CurveJnt
+    Neck: Girl_Neck_01Jnt
+    Right Index Distal: Girl_r_Finger_01_03Jnt
+    Right Index Intermediate: Girl_r_Finger_01_02Jnt
+    Right Index Proximal: Girl_r_Finger_01_01Jnt
+    Right Little Distal: Girl_r_Finger_04_03Jnt
+    Right Little Intermediate: Girl_r_Finger_04_02Jnt
+    Right Little Proximal: Girl_r_Finger_04_01Jnt
+    Right Middle Distal: Girl_r_Finger_02_03Jnt
+    Right Middle Intermediate: Girl_r_Finger_02_02Jnt
+    Right Middle Proximal: Girl_r_Finger_02_01Jnt
+    Right Ring Distal: Girl_r_Finger_03_03Jnt
+    Right Ring Intermediate: Girl_r_Finger_03_02Jnt
+    Right Ring Proximal: Girl_r_Finger_03_01Jnt
+    Right Thumb Distal: Girl_r_Thumb_01_03Jnt
+    Right Thumb Intermediate: Girl_r_Thumb_01_02Jnt
+    Right Thumb Proximal: Girl_r_Thumb_01_01Jnt
+    RightEye: Girl_r_Eye_01Jnt
+    RightFoot: Girl_r_Leg_AnkleJnt
+    RightHand: Girl_r_Arm_WristJnt
+    RightLowerArm: Girl_r_Arm_Elbow_CurveJnt
+    RightLowerLeg: Girl_r_Leg_Knee_CurveJnt
+    RightShoulder: Girl_r_Arm_ClavicleJnt
+    RightToes: Girl_r_Leg_ToeJnt
+    RightUpperArm: Girl_r_Arm_Shoulder_CurveJnt
+    RightUpperLeg: Girl_r_Leg_Hip_CurveJnt
+    Spine: Girl_Spine_02Jnt
+    UpperChest: Girl_Spine_04Jnt

@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Teenager_ConversationOptionB
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: 1b) "Ha Sofie, goed dat je er bent. Vorige week heb je mij verteld
+      welke dingen lastig voor je zijn. Ik denk dat ik jou daar wel mee kan helpen,
+      dus laten vandaag een begin maken. Ik verwacht dat we 45 minuten bezig zijn.
+      Alles wat je zegt, zal tussen ons blijven. Hoe denk je erover om vandaag met
+      mij te bespreken wat er lastig voor je is?"
+    response:
+    - header: neutral, look at the practitioner
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: ff78cda6c556047d282484b216e06bc5, type: 3}
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Happy surprise
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 21b4e679f82a54888aad2a7ed98999eb, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: 2b) "Ja, dat klopt. We weten vanuit onderzoek dat het heel slecht voor
+      je slaap is om 's avonds nog met je telefoon bezig te zijn, dus dat kan je
+      beter gewoon niet meer doen."
+    response:
+    - header: Looks angry, moves with arms
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 1618e4b5517cb4e6d893a9cffd214c1f, type: 3}
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad surprise
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 2315d7a4d536f4c9ba2039f62e6c6626, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: 3b) "Toen je moeder binnen kwam en zag dat je niet met je huiswerk
+      bezig was, werd ze kwaad."
+    response:
+    - header: She looks calm
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 02f85fd4652e84c0da3629baceb1ce69, type: 3}
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Cheesy grin
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: ed4ddd27de79f4c05a74221ebfca8351, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: 4b) "Ik snap dat je van mij de oplossing wilt horen in dit gesprek.
+      Het lijkt me handig dat ik daar wat meer over zeg, want dan hebben we daar
+      samen meer duidelijkheid over. Ik heb zelf niet het idee dat ik zomaar een
+      oplossing kan geven. In de eerste plaats omdat we nog niet duidelijk hebben
+      wat nou precies de oorzaak is en omdat bij iedereen weer iets anders de oplossing
+      kan zijn."
+    response:
+    - header: First look down, and then at the practitioner
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 97e20b15a96b14d6da1a2a5628f33f55, type: 3}
+      startTrigger: looksdown
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad mouth
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 59fbcaf5a4afb49f5a4d67fa8e218ddc, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: 5b) "Misschien heb je de vraag niet goed begrepen, maar ik was dus
+      benieuwd of jij ook last hebt van piekergedachten?"
+    response:
+    - header: Irritated and defenive attitude
+      changeHeader: 1
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 7ce06a227d3ae4961aead31dd18f32e7, type: 3}
+      startTrigger: defensive2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad mouth
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: d9e6067f11c8c4e1cbabd9688a079882, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: "6b) \"Oh, het is al bijna 3 uur! Ik moet helaas weer door naar de
+      volgende cli\xEBnt, dus laten we dit gesprek afronden. We kunnen het dan de
+      volgende keer hebben over je piekergedachten.\""
+    response:
+    - header: sofie looks down
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 2fe399178910a42a7abd76f8a82bf714, type: 3}
+      startTrigger: looksdown
+      stopTrigger: stopSpeaking
+      emoteTrigger: Cheesy grin
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 749f5b5ebadc64691983e48e6c16ad2f, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}

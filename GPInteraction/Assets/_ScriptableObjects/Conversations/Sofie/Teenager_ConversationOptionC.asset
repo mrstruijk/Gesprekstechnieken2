@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Teenager_ConversationOptionC
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: 1c) "Ha Sofie, goed dat je er bent. Hoe gaat het met je?"
+    response:
+    - header: neutral, looks at the practitioner
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 4b0e7a5877aa642ecbd11d9ac9f89f5a, type: 3}
+      startTrigger: open
+      stopTrigger: stopSpeaking
+      emoteTrigger: Happy surprise
+      range: {x: 0.6, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 178a7d389380f4fc69d6039f13990bd0, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+  - cardText: 2c) "Ik heb inderdaad van je ouders gehoord dat ze zich zorgen maken
+      om jouw telefoon-gebruik. Ik wil nu graag van jou horen hoe je over je slaapproblemen
+      denkt. Het gaat over jou, dus jij weet pas echt hoe het is. Wat denk jij dat
+      misschien de oorzaak is van je slaapproblemen?"
+    response:
+    - header: Sofie is surprised, then neutral
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 21aeb0a97f0fd405fb9e18d4cdb61336, type: 3}
+      startTrigger: startSpeaking3
+      stopTrigger: stopSpeaking
+      emoteTrigger: Happy surprise
+      range: {x: 0.4, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 19d830d99557d44d9bdabd3f1ed777ac, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+  - cardText: 3c) "Waarom keek je op je telefoon? Was je op dat moment al klaar met
+      je huiswerk?"
+    response:
+    - header: She's first neutral and then defensive
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 1e5c8e69d4a7f45e985371d166609d3e, type: 3}
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad mouth
+      range: {x: 0.4, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 685baa64b93b14836b3d25aff2775f4c, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+  - cardText: 4c) "Wat bedoel je precies met 'vanalles geprobeerd'?"
+    response:
+    - header: Looks calm and neutral
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 34a447aa6a24a43bbbbdb2fff7aeb9d0, type: 3}
+      startTrigger: startSpeaking3
+      stopTrigger: startSpeaking2
+      emoteTrigger: 
+      range: {x: 0.4, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: cf50f796e75ad4a36b807d692c7693ca, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+  - cardText: 5c) "Kan het zijn dat je even afgeleid was? Ik zag dat er net iemand
+      langs liep toen je stil viel. Geen probleem, ik raak zelf ook vaak afgeleid
+      als er iemand langs loopt. Zullen we het nog even over piekergedachten hebben?"
+    response:
+    - header: neutral sophie
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: ce1d38adf467944c3833ebefed6e0901, type: 3}
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Happy surprise
+      range: {x: 0.4, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 87c2f60fc720a447ab4ff7f1f7ca40ed, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}
+  - cardText: '6c) "We zijn nu bijna aan het eind van dit eerste gesprek gekomen.
+      We hebben samen gekeken naar wat mogelijke oorzaken zijn van jouw slaapproblemen
+      en het kan best zijn dat al dat piekeren ervoor zorgt dat je moeilijk in slaap
+      valt. Wat ik me nog afvraag, voordat we gaan afronden is: Hoe heb je dit eerste
+      gesprek ervaren?"'
+    response:
+    - header: neutral sofie
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: ab5422d68ff4049388ac59b2d6b41338, type: 3}
+      startTrigger: open
+      stopTrigger: stopSpeaking
+      emoteTrigger: Happy surprise
+      range: {x: 0.6, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: f57fecf87c7564116842d7a404466825, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.4, y: 0.8}

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f5c06448a3e2d43578391c8e951054b2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - conversation: {instanceID: 0}
+  - continueConveration: {fileID: 11400000, guid: 65dbfb0aa5c98410f9b4b175e162eb2e,
+      type: 2}
+  - resetCardColour: {fileID: 11400000, guid: 357d7d3c7a8234f54b7231c6e1466dfd, type: 2}
+  - priorToEndOfConversation: {fileID: 11400000, guid: 2e68e57449cac47439d998d8c8eb4688,
+      type: 2}
+  - endOfConversation: {fileID: 11400000, guid: fdb2c44d92bad435aaa34745dca744e6,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

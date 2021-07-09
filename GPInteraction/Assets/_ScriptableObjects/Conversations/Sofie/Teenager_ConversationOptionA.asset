@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Teenager_ConversationOptionA
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: 1a) "Ha Sofie, goed dat je er bent. Vandaag wil ik het met je hebben
+      over hoe het komt dat je cijfers zo slecht zijn."
+    response:
+    - header: Sofie crosses her arms and looks grumpy
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 085a9841b0f5042dea410d332aac661e, type: 3}
+      startTrigger: crossarms
+      stopTrigger: stopSpeaking
+      emoteTrigger: Murderlook
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: e5bcfd601f351488c9d5c3f38d0b614a, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: 2a) "Ok, het zou inderdaad kunnen dat met je telefoon bezig zijn invloed
+      heeft op je slaap. Zit je inderdaad tot laat op je telefoon en en waarom leg
+      je je telefoon niet wat vaker weg?"
+    response:
+    - header: Sofia is still defensive and grumpy
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 6fedc448ef10949aeb392fbc69cfda22, type: 3}
+      startTrigger: crossarms
+      stopTrigger: stopSpeaking
+      emoteTrigger: Murderlook
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 83382b2023f8a4a8b9e36522e62e0785, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: 3a) "Je werd kwaad."
+    response:
+    - header: 'neutral '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 6ae6e27c37fb6444897fae1e9fb3cb67, type: 3}
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad surprise
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: cc774050182704a42a568281cda3d0d4, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: '4a) "Waar je in ieder geval mee kan beginnen, is zorgen dat je een
+      vast slaapritme aan gaat nemen. Dus: elke dag op dezelfde tijd naar bed en
+      dezelfde tijd weer opstaan."'
+    response:
+    - header: defensive attitude
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 0f0702350285c490db7bd838042621e9, type: 3}
+      startTrigger: defensive
+      stopTrigger: stopSpeaking
+      emoteTrigger: Sad mouth
+      range: {x: 0.2, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 63a0abe93a1054630b47e477fd6a54b8, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: 5a) "Ik merk dat je het lastig vindt om hierover te praten. Je mag
+      gewoon zeggen wat je vindt."
+    response:
+    - header: Ironic laugh, but defensive attitude
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 99518cc0a0285494b8cccd8fb75d115e, type: 3}
+      startTrigger: defensive2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Happy surprise
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 7afb658994d1942b087821c24ed3c79c, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+  - cardText: 6a) "We zijn nu bijna aan het eind van dit eerste gesprek gekomen.
+      We hebben samen gekeken naar wat mogelijke oorzaken zijn van jouw slaapproblemen
+      en het kan best zijn dat al dat piekeren ervoor zorgt dat je moeilijk in slaap
+      valt. Dat lijkt me een mooi onderwerp om volgende keer mee verder te gaan."
+    response:
+    - header: neutral
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 8c57611d00b32431f9681fe00737c62e, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: e420c1829c1e14792a8467f23ed74c2b, type: 3}
+      startTrigger: open
+      stopTrigger: stopSpeaking
+      emoteTrigger: Happy surprise
+      range: {x: 0.75, y: 1}
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      clip: {fileID: 8300000, guid: 98063ea4a7f734032b942a750ee0f757, type: 3}
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}

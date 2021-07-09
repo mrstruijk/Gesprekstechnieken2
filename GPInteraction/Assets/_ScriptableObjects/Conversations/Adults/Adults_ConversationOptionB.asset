@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb7da368d65d4772b7034169b5115f1, type: 3}
+  m_Name: Adults_ConversationOptionB
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardAndResponse:
+  - cardText: 1b) "Goedemorgen, fijn dat jullie er zijn! We hebben vandaag 45 minuten
+      de tijd om het te hebben over Mia-Jolie. De vorige keer vertelden jullie dat
+      jullie je allebei zorgen maken over het opstandige gedrag van Mia-Jolie. Ik
+      stel voor dat we daar eerst verder over praten en dat we daarna bespreken hoe
+      het behandeltraject eruit gaat zien. Zullen we het zo aanpakken?"
+    response:
+    - header: 'Ze luistert voor geen meter. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 29acfbda31f7c4260afd0bbd5247bbc0, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking2
+      stopTrigger: stopSpeaking
+      emoteTrigger: Mouth funnel
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 'Ik vraag me af wat er in haar hoofd omgaat. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: c99b963115d6042f496a066c280409f7, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: c858caa56db304db798b233a88f2f6c2, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '2b) Je vraagt aan Janneke: "Gaat dat bij jou ook zo?"   '
+    response:
+    - header: 'Nee, niet bij het naar bed gaat. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 2e2b87a06b560489abc92a36895f0a8f, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Smile
+      range: {x: 0.85, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 9d2cd37e178eb483e9e9415a756ed05b, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: '3b) Je zegt: "Ik bedoel eigenlijk - wat is de functie van haar gedrag?
+      Kan het zijn dat ze eigenlijk verdrietig of angstig is?"'
+    response:
+    - header: Ze is verdrietig over de scheiding.
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 25c5eee7359014936975a2fe9bfc2f52, type: 3}
+      postDelay: 0
+      startTrigger: defensive
+      stopTrigger: stopSpeaking
+      emoteTrigger: Mouth press
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 33e67ce17e4274975adc84c7c09ca971, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking
+      stopTrigger: stopSpeaking
+      emoteTrigger: Small smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 4b) "Wat denk je zelf dat nodig is voor Mia-Jolie?"
+    response:
+    - header: 'Het zou fijn zijn als M-J met iemand kan praten. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 253104612d4e84645b3cb65be65c57a6, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Small smile
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 'Geef maar wat tips aan M-J zodat ze rustig kan blijven. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 92c2f1514589e42b7ae52829fe223b46, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking3
+      stopTrigger: stopSpeaking
+      emoteTrigger: Mouth press
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 924feaef018d5469c837e4f5a7161084, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: 5b) "Ik snap dat jullie denken dat het niet aan jullie ligt, maar het
+      is voor Mia-Jolie echt niet makkelijk om met negatieve opmerkingen van haar
+      ouders om te gaan."
+    response:
+    - header: 'Dit is bullshit. Ik doe niet meer mee aan dit gesprek. '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 5690ebda3ac5d457cab09c970840e4d1, type: 3}
+      postDelay: 0
+      startTrigger: defensive
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.95, y: 1}
+      emoteStopDelay: 3
+    - header: 'Zie je nu wel?! '
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 1e1cd8d984d4b1140b89388d98edd954, type: 2}
+      preDelay: 0
+      volume: 1
+      clip: {fileID: 8300000, guid: 5489e2aeac3a047b185778b5acd13340, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking1
+      stopTrigger: stopSpeaking
+      emoteTrigger: Nose sneer
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: a0f0f1df375b548acacd61b0b356d513, type: 3}
+      postDelay: 0
+      startTrigger: 
+      stopTrigger: stopSpeaking
+      emoteTrigger: 
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+  - cardText: "6b) \"Oh, het is al bijna 3 uur! Ik moet helaas weer door naar de
+      volgende cli\xEBnt, dus laten we dit gesprek afronden.\""
+    response:
+    - header: Sorry dat u uw tijd niet goed in de gaten houdt.
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: 82853f486b2e4487ab129b15fe83f19d, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 42941794dcd5946578c65801a7063d55, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking
+      stopTrigger: stopSpeaking
+      emoteTrigger: Mouth press
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
+    - header: 
+      changeHeader: 0
+      settings: {fileID: 11400000, guid: deedde77ad40d464d80601c1d0e56eab, type: 2}
+      preDelay: 1
+      volume: 1
+      clip: {fileID: 8300000, guid: 7be6b8c54660849cda62e02917126907, type: 3}
+      postDelay: 0
+      startTrigger: startSpeaking
+      stopTrigger: stopSpeaking
+      emoteTrigger: Frown
+      range: {x: 0.75, y: 1}
+      emoteStopDelay: 3
