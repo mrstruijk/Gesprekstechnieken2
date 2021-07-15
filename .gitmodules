@@ -1,0 +1,3 @@
+[submodule "GPInteraction/Assets/GP_ThirdPartyAssets"]
+	path = GPInteraction/Assets/GP_ThirdPartyAssets
+	url = https://github.com/mrstruijk/GP_ThirdPartyAssets
