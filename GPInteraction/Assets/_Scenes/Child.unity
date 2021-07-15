@@ -583,15 +583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 928aba8969a229b4fadcb41bc4913f66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   OnAwakeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -764,6 +755,16 @@ PrefabInstance:
       propertyPath: bMat
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6964303915073891282, guid: 41747b67ff67d402c85a1ee4eda7d058,
+        type: 3}
+      propertyPath: isDirty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964303915073891282, guid: 41747b67ff67d402c85a1ee4eda7d058,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8377837865593475018, guid: 41747b67ff67d402c85a1ee4eda7d058,
         type: 3}
       propertyPath: m_RootOrder
@@ -886,184 +887,95 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scenePrefabInstances:
-  - _gameObject: {fileID: 1760739769}
-    _prefab: Assets/_Characters/Olivia/Prefabs/Olivia.prefab
-  - _gameObject: {fileID: 707678393}
-    _prefab: Assets/_Prefabs/Cards/Conversations/Cards Child Variant.prefab
-  - _gameObject: {fileID: 484938228}
-    _prefab: Assets/_Prefabs/Environment/Environment Child Variant.prefab
-  - _gameObject: {fileID: 484938271}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/BEAR.prefab
-  - _gameObject: {fileID: 484938270}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/MONKEY.prefab
-  - _gameObject: {fileID: 484938269}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/PENGUIN.prefab
-  - _gameObject: {fileID: 484938268}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/PIG.prefab
-  - _gameObject: {fileID: 484938267}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/RABBIT.prefab
-  - _gameObject: {fileID: 484938266}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/SHEEP.prefab
-  - _gameObject: {fileID: 484938264}
-    _prefab: Assets/_Environment/Toys/AurynSky/Arcades Pack 02/Prefabs/WideStandardOrangesScreen.prefab
-  - _gameObject: {fileID: 484938261}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/MONKEY.prefab
-  - _gameObject: {fileID: 484938260}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/RABBIT.prefab
-  - _gameObject: {fileID: 484938259}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/BEAR.prefab
-  - _gameObject: {fileID: 484938258}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/MONKEY.prefab
-  - _gameObject: {fileID: 484938257}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/PENGUIN.prefab
-  - _gameObject: {fileID: 484938256}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/PIG.prefab
-  - _gameObject: {fileID: 484938255}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/RABBIT.prefab
-  - _gameObject: {fileID: 484938254}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/SHEEP.prefab
-  - _gameObject: {fileID: 484938253}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/BEAR.prefab
-  - _gameObject: {fileID: 484938252}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/MONKEY.prefab
-  - _gameObject: {fileID: 484938251}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/PENGUIN.prefab
-  - _gameObject: {fileID: 484938250}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/PIG.prefab
-  - _gameObject: {fileID: 484938249}
-    _prefab: Assets/_Environment/Toys/3DTOYS/PREFABS/RABBIT.prefab
-  - _gameObject: {fileID: 484938247}
-    _prefab: Assets/_Environment/Room/HDRPFurniturePack/Artek/Table_97_Artek/Table_97_Artek.prefab
-  - _gameObject: {fileID: 484938246}
-    _prefab: Assets/_Environment/Room/HDRPFurniturePack/Decorative_Throw_Pillows/Decorative_Throw_Pillow.prefab
-  - _gameObject: {fileID: 484938245}
-    _prefab: Assets/_Environment/Room/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Plant_Potted_Monstera_Deliciosa.prefab
-  - _gameObject: {fileID: 484938244}
-    _prefab: Assets/_Environment/Room/HDRPFurniturePack/Rug_High_Pile_Grey/Rug_High_Pile_Grey.prefab
-  - _gameObject: {fileID: 484938243}
-    _prefab: Assets/_Environment/Room/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Sofa_SL03_Allemuir_Stirling.prefab
-  - _gameObject: {fileID: 484938242}
-    _prefab: Assets/_Environment/Room/HDRPFurniturePack/Decorative_Throw_Pillows/Decorative_Throw_Pillow.prefab
-  - _gameObject: {fileID: 484938241}
-    _prefab: Assets/_Environment/Room/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Plant_Potted_Monstera_Deliciosa.prefab
-  - _gameObject: {fileID: 484938240}
-    _prefab: Assets/_Environment/Room/HDRPFurniturePack/Succulent_Planter/Succulent_Planter_Ceramic.prefab
-  - _gameObject: {fileID: 484938239}
-    _prefab: Assets/_Environment/Room/HDRPFurniturePack/Succulent_Planter/Succulent_Planter_Ceramic.prefab
-  - _gameObject: {fileID: 484938238}
-    _prefab: Assets/_Environment/Room/DoorPackFree/Prefab/DoorV6.prefab
-  - _gameObject: {fileID: 1676170772}
-    _prefab: Assets/Glass 4 Pack FREE/Prefab/Window.prefab
-  - _gameObject: {fileID: 484938237}
-    _prefab: Assets/_Environment/Room/Clock/Prefabs/Clock.prefab
-  - _gameObject: {fileID: 484938230}
-    _prefab: Assets/_Environment/Office Supplies Low Poly/Assets/Prefabs/Legal_pad.prefab
-  - _gameObject: {fileID: 484938229}
-    _prefab: Assets/_Environment/Office Supplies Low Poly/Assets/Prefabs/Pencil red.prefab
-  - _gameObject: {fileID: 666061761}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1793080550}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1821188648}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 80477730}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1419752769}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 282931052}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 808657987}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1582653103}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 830782303}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 669059044}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 785309190}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1321426433}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 74481338}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1711179146}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1177919426}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 2065416807}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 703076358}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 2105808094}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1654379261}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1104170040}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 687663111}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1702105943}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1891355796}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 70916392}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1713388114}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 2132302352}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1234530998}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1478075981}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1489915473}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 500220373}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 529408491}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1445983848}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 18484027}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1589436999}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 160788316}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 1006347625}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 243882445}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 742354695}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 211306787}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 226116364}
-    _prefab: Assets/European Buildings/Decorations/road.prefab
-  - _gameObject: {fileID: 624218208}
-    _prefab: Assets/European Buildings/Buildings/building_1.prefab
-  - _gameObject: {fileID: 2009941093}
-    _prefab: Assets/European Buildings/Buildings/building_2.prefab
-  - _gameObject: {fileID: 1378396138}
-    _prefab: Assets/European Buildings/Buildings/building_4.prefab
-  - _gameObject: {fileID: 297386832}
-    _prefab: Assets/European Buildings/Buildings/building_5.prefab
-  - _gameObject: {fileID: 1407418117}
-    _prefab: Assets/European Buildings/Buildings/building_6.prefab
-  - _gameObject: {fileID: 1491897957}
-    _prefab: Assets/European Buildings/Buildings/building_7.prefab
-  - _gameObject: {fileID: 202434138}
-    _prefab: Assets/European Buildings/Buildings/building_8.prefab
-  - _gameObject: {fileID: 1416853411}
-    _prefab: Assets/European Buildings/Buildings/building_5.prefab
-  - _gameObject: {fileID: 964047983}
-    _prefab: Assets/_Prefabs/XR/XR Grab Rig Quest Variant.prefab
-  - _gameObject: {fileID: 964047984}
-    _prefab: Assets/_Prefabs/XR/Quest_controller_l.prefab
-  - _gameObject: {fileID: 964047986}
-    _prefab: Assets/_Prefabs/XR/Quest_controller_r.prefab
-  - _gameObject: {fileID: 2033692033}
-    _prefab: Assets/_Prefabs/XR/XR Interaction Manager.prefab
+  - {_gameObject: {fileID: 1760739769}, _prefab: Assets/_Characters/Olivia/Prefabs/Olivia.prefab}
+  - {_gameObject: {fileID: 707678393}, _prefab: Assets/_Prefabs/Cards/Conversations/Cards Child Variant.prefab}
+  - {_gameObject: {fileID: 484938228}, _prefab: Assets/_Prefabs/Environment/Environment Child Variant.prefab}
+  - {_gameObject: {fileID: 484938271}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/BEAR.prefab}
+  - {_gameObject: {fileID: 484938270}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/MONKEY.prefab}
+  - {_gameObject: {fileID: 484938269}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/PENGUIN.prefab}
+  - {_gameObject: {fileID: 484938268}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/PIG.prefab}
+  - {_gameObject: {fileID: 484938267}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/RABBIT.prefab}
+  - {_gameObject: {fileID: 484938266}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/SHEEP.prefab}
+  - {_gameObject: {fileID: 484938264}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/AurynSky/Arcades Pack 02/Prefabs/WideStandardOrangesScreen.prefab}
+  - {_gameObject: {fileID: 484938261}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/MONKEY.prefab}
+  - {_gameObject: {fileID: 484938260}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/RABBIT.prefab}
+  - {_gameObject: {fileID: 484938259}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/BEAR.prefab}
+  - {_gameObject: {fileID: 484938258}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/MONKEY.prefab}
+  - {_gameObject: {fileID: 484938257}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/PENGUIN.prefab}
+  - {_gameObject: {fileID: 484938256}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/PIG.prefab}
+  - {_gameObject: {fileID: 484938255}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/RABBIT.prefab}
+  - {_gameObject: {fileID: 484938254}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/SHEEP.prefab}
+  - {_gameObject: {fileID: 484938253}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/BEAR.prefab}
+  - {_gameObject: {fileID: 484938252}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/MONKEY.prefab}
+  - {_gameObject: {fileID: 484938251}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/PENGUIN.prefab}
+  - {_gameObject: {fileID: 484938250}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/PIG.prefab}
+  - {_gameObject: {fileID: 484938249}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Toys/3DTOYS/PREFABS/RABBIT.prefab}
+  - {_gameObject: {fileID: 484938247}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/HDRPFurniturePack/Artek/Table_97_Artek/Table_97_Artek.prefab}
+  - {_gameObject: {fileID: 484938246}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/HDRPFurniturePack/Decorative_Throw_Pillows/Decorative_Throw_Pillow.prefab}
+  - {_gameObject: {fileID: 484938245}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Plant_Potted_Monstera_Deliciosa.prefab}
+  - {_gameObject: {fileID: 484938244}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/HDRPFurniturePack/Rug_High_Pile_Grey/Rug_High_Pile_Grey.prefab}
+  - {_gameObject: {fileID: 484938243}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Sofa_SL03_Allemuir_Stirling.prefab}
+  - {_gameObject: {fileID: 484938242}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/HDRPFurniturePack/Decorative_Throw_Pillows/Decorative_Throw_Pillow.prefab}
+  - {_gameObject: {fileID: 484938241}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Plant_Potted_Monstera_Deliciosa.prefab}
+  - {_gameObject: {fileID: 484938240}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/HDRPFurniturePack/Succulent_Planter/Succulent_Planter_Ceramic.prefab}
+  - {_gameObject: {fileID: 484938239}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/HDRPFurniturePack/Succulent_Planter/Succulent_Planter_Ceramic.prefab}
+  - {_gameObject: {fileID: 484938238}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/DoorPackFree/Prefab/DoorV6.prefab}
+  - {_gameObject: {fileID: 1676170772}, _prefab: Assets/GP_ThirdPartyAssets/Glass 4 Pack FREE/Prefab/Window.prefab}
+  - {_gameObject: {fileID: 484938237}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Room/Clock/Prefabs/Clock.prefab}
+  - {_gameObject: {fileID: 484938230}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Office Supplies Low Poly/Assets/Prefabs/Legal_pad.prefab}
+  - {_gameObject: {fileID: 484938229}, _prefab: Assets/GP_ThirdPartyAssets/_Environment/Office Supplies Low Poly/Assets/Prefabs/Pencil red.prefab}
+  - {_gameObject: {fileID: 666061761}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1793080550}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1821188648}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 80477730}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1419752769}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 282931052}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 808657987}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1582653103}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 830782303}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 669059044}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 785309190}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1321426433}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 74481338}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1711179146}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1177919426}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 2065416807}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 703076358}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 2105808094}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1654379261}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1104170040}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 687663111}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1702105943}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1891355796}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 70916392}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1713388114}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 2132302352}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1234530998}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1478075981}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1489915473}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 500220373}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 529408491}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1445983848}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 18484027}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1589436999}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 160788316}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 1006347625}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 243882445}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 742354695}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 211306787}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 226116364}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Decorations/road.prefab}
+  - {_gameObject: {fileID: 624218208}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Buildings/building_1.prefab}
+  - {_gameObject: {fileID: 2009941093}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Buildings/building_2.prefab}
+  - {_gameObject: {fileID: 1378396138}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Buildings/building_4.prefab}
+  - {_gameObject: {fileID: 297386832}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Buildings/building_5.prefab}
+  - {_gameObject: {fileID: 1407418117}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Buildings/building_6.prefab}
+  - {_gameObject: {fileID: 1491897957}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Buildings/building_7.prefab}
+  - {_gameObject: {fileID: 202434138}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Buildings/building_8.prefab}
+  - {_gameObject: {fileID: 1416853411}, _prefab: Assets/GP_ThirdPartyAssets/European Buildings/Buildings/building_5.prefab}
+  - {_gameObject: {fileID: 964047983}, _prefab: Assets/_Prefabs/XR/XR Grab Rig Quest Variant.prefab}
+  - {_gameObject: {fileID: 964047984}, _prefab: Assets/_Prefabs/XR/Quest_controller_l.prefab}
+  - {_gameObject: {fileID: 964047986}, _prefab: Assets/_Prefabs/XR/Quest_controller_r.prefab}
+  - {_gameObject: {fileID: 2033692033}, _prefab: Assets/_Prefabs/XR/XR Interaction Manager.prefab}
 --- !u!4 &1148414602
 Transform:
   m_ObjectHideFlags: 11
